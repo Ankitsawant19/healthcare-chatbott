@@ -24,7 +24,8 @@ export default function Home() {
   const sendMessage = async () => {
     if (!input.trim()) return;
 
-    console.log("Sending:", input);
+    console.log("Sending to Render:", input);
+console.log("API URL:", "https://healthcare-chatbot-api-tb4z.onrender.com/api/chat");
 
     const currentInput = input;
 
